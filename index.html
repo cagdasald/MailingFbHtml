@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        display: flex;
+        flex-direction: column;
+        background-image: url("./assets/fbtk_bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100vh;
+        padding: 40px;
+        overflow: hidden;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 94vh;
+        border: 2px solid #3affff;
+        border-radius: 44px;
+        color: #2bd4ed;
+        font-family: "Gilroy";
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 30px;
+        padding: 300px 44px 50px 44px;
+      }
+
+      .footer {
+        text-align: right;
+        align-self: flex-end;
+      }
+
+      .card {
+        width: 250px;
+        align-self: center;
+      }
+
+      .url {
+        align-self: center;
+        font-family: "Gilroy";
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.3em;
+        color: #2bd4ed;
+      }
+    </style>
+    <title>Fenerbahçe Taraftar Kart</title>
+  </head>
+  <body>
+    <div class="container">
+      <span class="desc">
+        Değerli {user.firstName},<br />
+        <br />
+
+        Yeni yılınızı kutlar;<br />
+        <br />
+
+        Bu büyük kulübün tarihi boyunca olduğu gibi 2022 yılında da yanımızda
+        olan, hiçbir koşulda bizi yalnız bırakmayan siz büyük taraftarımıza
+        teşekkür ederiz.<br /><br />
+
+        Yeni yılda sizden aldığımız güç ile azim ve inançla çalışarak Çubuklumuz
+        için mücadelemizi sürdüreceğiz! Bu yolda sizden aldığımız destek yine en
+        büyük gücümüz olacak; hedeflerimize emin adımlarla yürüyeceğiz…<br />
+        <br />
+
+        Cumhuriyet’in Feneri Fenerbahçemizin, Cumhuriyetimizin 100. yılında Ulu
+        Önder Mustafa Kemal Atatürk’ün izinde yaşayacağı nice başarılara,
+        kucaklayacağı nice şampiyonluklara…<br />
+        <br />
+
+        Size, sevdiklerinize sağlıklı, mutlu ve huzurlu, Sarı Lacivert bir yıl
+        dileriz.
+      </span>
+      <span class="footer">
+        <br />
+        Saygılarımızla,<br />
+        Jorge Jesus ve Futbol Takımı
+      </span>
+      <img class="card" src="./assets/fb-card_2x.svg" alt="card" />
+      <span class="url">taraftarkart.fenerbahce.org</span>
+    </div>
+  </body>
+</html>
